@@ -11,9 +11,6 @@ const  Timer =({milisegundos}:TimerProps) => {
     useEffect(()=>{
         ref.current && clearInterval(ref?.current);//limpiar el intervalo
         ref.current = setInterval(()=>setSegundos(s => s+1),milisegundos);
-        /*return() =>{//::se ejecuta cuando se destruye el componente
-            console.log('????')
-        }*/
     },[milisegundos]);
 
   return (
