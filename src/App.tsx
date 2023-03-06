@@ -7,28 +7,13 @@ import TimerPadre from './TimerPadre';
 import ContadorRed from './ContadorRed';
 import Formulario from './Formulario';
 import Formulario2 from './Formulario2';
+import Todo from './todo/Todo';
 
 function App() {
   return (
-    <>
-      <h1>Hola mundo typescript</h1>
-      <Counter/>
-      <hr/>
-      <Usuario/>
-      <br/>
-      <h2>useEffect -useRef</h2>
-      <hr/>
-      <TimerPadre/>
-      <hr/>
-      <h2>useReducer</h2>
-      <hr/>
-      <ContadorRed/>
-      <hr/>
-      <h2>Custom hooks</h2>
-      
-      <Formulario/>
-      <Formulario2/>
-    </>
+    <div className='App App-header'>
+      <Todo/>
+    </div>
   );
 }
 
