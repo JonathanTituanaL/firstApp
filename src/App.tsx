@@ -5,6 +5,8 @@ import Counter from './Counter';
 import Usuario from './Usuario';
 import TimerPadre from './TimerPadre';
 import ContadorRed from './ContadorRed';
+import Formulario from './Formulario';
+import Formulario2 from './Formulario2';
 
 function App() {
   return (
@@ -21,6 +23,11 @@ function App() {
       <h2>useReducer</h2>
       <hr/>
       <ContadorRed/>
+      <hr/>
+      <h2>Custom hooks</h2>
+      
+      <Formulario/>
+      <Formulario2/>
     </>
   );
 }
